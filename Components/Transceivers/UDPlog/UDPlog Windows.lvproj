@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="CCSymbols" Type="Str">DEBUG_DSF,True;</Property>
+		<Property Name="CCSymbols" Type="Str">DEBUG_DSF,False;</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -308,6 +308,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Static Errors.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Static Errors.lvlib"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 			</Item>
@@ -330,23 +331,23 @@
 				<Property Name="Bld_buildSpecName" Type="Str">UDPlog</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows/Components</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9D5ED05C-4A86-4635-A971-06D3E255CE11}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDPlog.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/UDPlog.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Windows/Components/UDPlog.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Windows/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BACD3ED0-AD71-4407-9263-90E60BAF48E9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AF266775-CF27-4F28-8CB8-58F1A596E945}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UDPlog.lvlib</Property>
